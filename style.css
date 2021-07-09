@@ -54,13 +54,12 @@ body {
 }
 
 .sec-icons {
-  display:flex;
-  justify-content:center;
-  list-style:none; 
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
 .fab {
   padding: 10px;
   height: 100%;
 }
- 
