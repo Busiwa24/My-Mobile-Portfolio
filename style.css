@@ -52,3 +52,15 @@ body {
   background-image: url("img/image_geometry_2.svg");
   background-repeat: no-repeat;
 }
+
+.sec-icons {
+  display:flex;
+  justify-content:center;
+  list-style:none; 
+}
+
+.fab {
+  padding: 10px;
+  height: 100%;
+}
+ 
