@@ -61,47 +61,88 @@ body {
 
 .image-break {
   margin-top: 30px;
+  margin-bottom: 0;
+  width: 100%;
+  height:auto;
 }
 .section-2 {
   margin-top: 0;
+  margin-bottom: -6px;
 }
 
 .projects-card {
   list-style: none;
   display: flex;
-}
-
-.section-2 img {
-  margin-top: 20px;
+  justify-content: start;
+  margin-left: 16px;
 }
 
 .projects-heading-2 {
  margin-left: 16px;
  color: white;
+ font-family: 'Poppins', sans-serif;
+ line-height: 16px;
+ font-size: 20px;
+ padding: 26px 0;
+}
+
+.projects-img {
+  width: 100%;
+  height:auto;
 }
 
 .project-list {
-  background-color: #98DEDE;
-  ;
-  margin-left: 16px;
-  padding: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+ 
 }
 
 .project-button {
   margin-left: 16px;
-  margin-top: 10px;
-  
+  margin-top: 15px;
+  display: inline-flex;
+  height: 150%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color:#1a2236;
+  border: 2px solid white; 
 }
- 
+
 .list-btn {
   color: #1a2236;
   background-color: #98DEDE;
   font-size: 10.33px;
-  ;
+  margin-right: 10px;
+  border: none;
+  padding: 5px;
+  margin-top: 12px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .background-color {
   background-color: #1a2236;
+  padding-bottom: 20px;
+  padding-top: 0%;
+}
+
+.about {
+  display: flex;
+}
+
+.about-par {
+  margin-left: 16px;
+}
+
+.cv-btn {
+  width: 85%;
+  background-color: #1a2236;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang {
+  background-image: url("img/languages.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
