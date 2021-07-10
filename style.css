@@ -95,13 +95,16 @@ body {
 .project-button {
   margin-left: 16px;
   margin-top: 15px;
-  display: inline-flex;
-  height: 150%;
+  margin-right: 300px;
   padding: 10px;
   font-size: 16px;
   color: white;
   background-color: #1a2236;
   border: 2px solid white;
+}
+
+.project-button:hover {
+  cursor: pointer;
 }
 
 .list-btn {
@@ -116,6 +119,9 @@ body {
 }
 
 .background-color {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
   background-color: #1a2236;
   padding-bottom: 20px;
   padding-top: 0%;
@@ -128,6 +134,7 @@ body {
 
 .about-par {
   margin-left: 16px;
+  padding: 30px 0;
 }
 
 .cv-btn {
