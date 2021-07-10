@@ -126,6 +126,7 @@ body {
 
 .about {
   display: flex;
+  flex-direction: column;
 }
 
 .about-par {
@@ -133,6 +134,7 @@ body {
 }
 
 .cv-btn {
+  margin: 20px auto;
   width: 85%;
   background-color: #1a2236;
   color: white;
@@ -142,7 +144,65 @@ body {
 }
 
 .lang {
-  background-image: url("img/languages.svg");
+  background-image: url("img/languages.png");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  color: #FFFFFF;
+  font-family: Poppins;
+  padding-bottom: 30px;
+}
+
+.lang h2 {
+  margin: 50px 120px 0 50px;
+}
+
+.list {
+  margin: 21px 61px 53px 60px;
+}
+
+.list-list {
+  margin: 10px;
+}
+
+.frameworks {
+  background-image: url("img/frameworks.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  color: #FFFFFF;
+  font-family: Poppins;
+  padding-bottom: 30px;
+}
+
+.frameworks h2 {
+  margin: 50px 120px 0 50px;
+}
+
+.list {
+  margin: 21px 61px 53px 60px;
+}
+
+.list-list {
+  margin: 10px;
+}
+
+.skills {
+  background-image: url("img/languages.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  color: #FFFFFF;
+  font-family: Poppins;
+  padding-bottom: 30px;
+}
+
+.skills h2 {
+  margin: 50px 120px 0 50px;
 }
