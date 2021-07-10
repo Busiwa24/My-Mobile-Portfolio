@@ -107,6 +107,10 @@ body {
   cursor: pointer;
 }
 
+.project-button::after {
+  cursor: pointer;
+}
+
 .list-btn {
   color: #1a2236;
   background-color: #98dede;
